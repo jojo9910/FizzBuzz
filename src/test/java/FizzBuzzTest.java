@@ -26,6 +26,7 @@ public class FizzBuzzTest {
     void shouldReturnBuzzWhenInputIsFiveAndItsMultiples(){
         assertThat(fizzBuzz.of(5),is("Buzz"));
         assertThat(fizzBuzz.of(160),is("Buzz"));
+        assertThat(fizzBuzz.of(160),is("Buzz"));
     }
 
     @Test
